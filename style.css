@@ -1,0 +1,22 @@
+body {
+    background-image: url("assets/images/skulls.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 1000px;
+}
+
+ul {
+    float: right;
+}
+
+#navbar {
+    background-color: #52aaa5;
+    color: #fff;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    float: left;
+}
