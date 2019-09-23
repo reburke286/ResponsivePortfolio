@@ -11,9 +11,36 @@ ul {
 }
 
 #navbar {
+    padding: 0px 20px;
+}
+
+#navbarNav {
+    position: right;
+}
+
+
+#logo {
     background-color: #52aaa5;
     color: #fff;
+    padding: 20px;
+    font-size: 28px;
+    font-family: Georgia;
 }
+
+/* Styling for page containers */
+.container {
+    min-height:700px;
+    background-color: white;
+    padding-top: 30px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #52aaa5;
+}
+
+/* Styling for About Me*/
 
 img {
     height: 150px;
