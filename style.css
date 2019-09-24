@@ -6,6 +6,7 @@ body {
     min-height: 1000px;
 }
 
+/*Styling for NavBar*/
 ul {
     float: right;
 }
@@ -18,13 +19,31 @@ ul {
     position: right;
 }
 
-
 #logo {
     background-color: #52aaa5;
     color: #fff;
     padding: 20px;
     font-size: 28px;
     font-family: Georgia;
+}
+
+#portborder {
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: gray;
+}
+
+/*Styling for Footer*/
+#footer {
+    border-top-style: solid;
+    border-top-width: 8px;
+    border-top-color: teal;
+}
+
+#pfooter {
+    text-align: center;
+    width: 100%;
 }
 
 /* Styling for page containers */
