@@ -40,10 +40,128 @@ h2 {
     color: #52aaa5;
 }
 
+#bodyline {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    color: #dddddd;
+}
+
+#row-padding {
+    margin-top: 30px;
+}
+
 /* Styling for About Me*/
 
 img {
     height: 150px;
     width: 150px;
     float: left;
+}
+
+/* Styling for Contact Form*/
+
+#button {
+    background-color: #52aaa5;
+    margin-top: 10px;
+}
+
+/*This is styling for Portfolio Page*/
+
+h3 {
+    background-color: #4aaaa5;
+    color: white;
+    height: 40px;
+    text-align: center;
+    padding: 0px 0px;
+    margin-top: 125px;
+    width: 196px;
+}    
+
+.canisters {
+    height: 200px;
+    width: 200px;
+    padding: 10px 0px;
+    float: left;
+    position: relative;
+    background-image: url("assets/images/canisters.jpg");
+    background-size: cover;
+    margin: 20px 40px;
+    border-style:solid;
+    border-color: #4aaaa5;
+    border-width: 2px;
+    }
+
+.pillow {
+    height: 200px;
+    width: 200px;
+    padding: 10px 0px;
+    float: left;
+    position: relative;
+    background-image: url("assets/images/pillow.jpg");
+    background-size: cover;
+    margin: 20px 40px;
+    border-style:solid;
+    border-color: #4aaaa5;
+    border-width: 2px;
+    }
+
+.eggs {
+    height: 200px;
+    width: 200px;
+    padding: 10px 0px;
+    float: left;
+    position: relative;
+    background-image: url("assets/images/eggs.jpg");
+    background-size: cover;
+    margin: 20px 40px;
+    border-style:solid;
+    border-color: #4aaaa5;
+    border-width: 2px;
+}
+
+.flowers {
+    height: 200px;
+    width: 200px;
+    padding: 10px 00px;
+    float: left;
+    position: relative;
+    background-image: url("assets/images/flowers.jpg");
+    background-size: cover;
+    margin: 20px 40px;
+    border-style:solid;
+    border-color: #4aaaa5;
+    border-width: 2px;
+}
+
+.shoes {
+    height: 200px;
+    width: 200px;
+    padding: 10px 0px;
+    float: left;
+    position: relative;
+    background-image: url("assets/images/shoes.jpg");
+    background-size: cover;
+    margin: 20px 40px;
+    border-style:solid;
+    border-color: #4aaaa5;
+    border-width: 2px;
+}
+
+.bedroom {
+    height: 200px;
+    width: 200px;
+    padding: 10px 0px;
+    float: left;
+    position: relative;
+    background-image: url("assets/images/bedroom.jpg");
+    background-size: cover;
+    margin: 20px 40px;
+    border-style:solid;
+    border-color: #4aaaa5;
+    border-width: 2px;
 }
