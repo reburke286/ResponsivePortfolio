@@ -7,24 +7,46 @@ body {
 }
 
 /*Styling for NavBar*/
-ul {
-    float: right;
+a {
+    color: gray;
+}
+a:hover {
+    color: black;
 }
 
-#navbar {
-    padding: 0px 20px;
+#span {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+h1 { color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
 }
 
-#navbarNav {
-    position: right;
+.nav-column {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+#nav-item {
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+#navContainer {
+    min-height: 100px;
+    background-color: white;
+    padding-top: 0px;
+    border-bottom-style: solid;
+    border-color: gray;
+    margin-right: 0px;
+    margin-left: 0px
 }
 
 #logo {
     background-color: #52aaa5;
-    color: #fff;
-    padding: 20px;
-    font-size: 28px;
-    font-family: Georgia;
+    width: 100%;
 }
 
 #portborder {
@@ -32,6 +54,7 @@ ul {
     border-right-style: solid;
     border-width: 1px;
     border-color: gray;
+    border-spacing: 1px;
 }
 
 /*Styling for Footer*/
@@ -44,10 +67,11 @@ ul {
 #pfooter {
     text-align: center;
     width: 100%;
+    color: gray;
 }
 
 /* Styling for page containers */
-.container {
+#contentContainer {
     min-height:700px;
     background-color: white;
     padding-top: 30px;
@@ -74,14 +98,6 @@ h2 {
     margin-top: 30px;
 }
 
-/* Styling for About Me*/
-
-img {
-    height: 150px;
-    width: 150px;
-    float: left;
-}
-
 /* Styling for Contact Form*/
 
 #button {
@@ -89,7 +105,7 @@ img {
     margin-top: 10px;
 }
 
-/*This is styling for Portfolio Page*/
+/*Styling for Portfolio Page*/
 
 h3 {
     background-color: #4aaaa5;
