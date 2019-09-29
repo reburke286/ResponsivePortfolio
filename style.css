@@ -14,19 +14,14 @@ a:hover {
     color: black;
 }
 
-#span {
-    color: white;
+#h1 { color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
-}
-h1 { color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
-}
-
-.nav-column {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
+    background-color: #4aaaa5;
+    margin-left: 100px;
+    margin-top: 0px;
+    padding: 20px 40px;
+    margin-bottom: 0px;
 }
 
 #nav-item {
@@ -35,7 +30,6 @@ h1 { color: white;
 }
 
 #navContainer {
-    min-height: 100px;
     background-color: white;
     padding-top: 0px;
     border-bottom-style: solid;
@@ -44,17 +38,11 @@ h1 { color: white;
     margin-left: 0px
 }
 
-#logo {
-    background-color: #52aaa5;
-    width: 100%;
-}
-
 #portborder {
     border-left-style: solid;
     border-right-style: solid;
     border-width: 1px;
     border-color: gray;
-    border-spacing: 1px;
 }
 
 /*Styling for Footer*/
@@ -76,6 +64,7 @@ h1 { color: white;
     background-color: white;
     padding-top: 30px;
     margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 h2 {
@@ -94,15 +83,15 @@ h2 {
     color: #dddddd;
 }
 
-#row-padding {
-    margin-top: 30px;
-}
-
 /* Styling for Contact Form*/
 
 #button {
     background-color: #52aaa5;
     margin-top: 10px;
+}
+
+#row-padding {
+    margin-top: 30px;
 }
 
 /*Styling for Portfolio Page*/
@@ -125,7 +114,7 @@ h3 {
     position: relative;
     background-image: url("assets/images/canisters.jpg");
     background-size: cover;
-    margin: 20px 40px;
+    margin: 20px 10px;
     border-style:solid;
     border-color: #4aaaa5;
     border-width: 2px;
@@ -139,7 +128,7 @@ h3 {
     position: relative;
     background-image: url("assets/images/pillow.jpg");
     background-size: cover;
-    margin: 20px 40px;
+    margin: 20px 10px;
     border-style:solid;
     border-color: #4aaaa5;
     border-width: 2px;
@@ -153,7 +142,7 @@ h3 {
     position: relative;
     background-image: url("assets/images/eggs.jpg");
     background-size: cover;
-    margin: 20px 40px;
+    margin: 20px 10px;
     border-style:solid;
     border-color: #4aaaa5;
     border-width: 2px;
@@ -167,7 +156,7 @@ h3 {
     position: relative;
     background-image: url("assets/images/flowers.jpg");
     background-size: cover;
-    margin: 20px 40px;
+    margin: 20px 10px;
     border-style:solid;
     border-color: #4aaaa5;
     border-width: 2px;
@@ -181,7 +170,7 @@ h3 {
     position: relative;
     background-image: url("assets/images/shoes.jpg");
     background-size: cover;
-    margin: 20px 40px;
+    margin: 20px 10px;
     border-style:solid;
     border-color: #4aaaa5;
     border-width: 2px;
@@ -195,8 +184,16 @@ h3 {
     position: relative;
     background-image: url("assets/images/bedroom.jpg");
     background-size: cover;
-    margin: 20px 40px;
+    margin: 20px 10px;
     border-style:solid;
     border-color: #4aaaa5;
     border-width: 2px;
 }
+
+/* Styling for 640px screen */
+@media only screen and (max-width: 640px) {
+    #h1 {
+        width: 100%;
+        margin: 0px 0px;
+        text-align: center;
+    }
